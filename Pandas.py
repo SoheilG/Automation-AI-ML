@@ -8,5 +8,6 @@ data = {
 
 df = pd.DataFrame(data)
 
-premium_ready = df(df[df['Price']>500] & df[df['In_Stock'] = True])
+premium_ready = df[(df['Price'] > 500) & (df['In_Stock'])]
 print(premium_ready)
+

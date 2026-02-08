@@ -30,4 +30,4 @@ readings = [22, 25, -99, 21, 28, -99, 24]
 
 # import os 
 # current_files = os.listdir(".")
-# folders_only = [f for f in current_files if "." not in f]
+# folders_only = [f for f in current_files if "." not in f] 
